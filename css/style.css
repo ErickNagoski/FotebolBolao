@@ -1,0 +1,375 @@
+    ul {
+        list-style: none;
+    }
+    
+    .center {
+        text-align: center;
+    }
+    
+    .form {
+        margin-top: 50px;
+    }
+    
+    .bolao-name {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        color: #dee0e4;
+    }
+    
+    .label-novo-bolao {
+        color: #d2d6de;
+    }
+    
+    .nomeApostador {
+        font-size: 30px;
+        font-weight: 600;
+        color: #dbdbdb !important;
+    }
+    
+    .pontos {
+        font-size: 15px;
+        font-weight: 600;
+        color: #dfdfdf;
+    }
+    
+    .content {
+        min-height: 250px;
+        padding: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px
+    }
+    
+    .row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    
+    .blue {
+        background-color: #00c0ef !important;
+    }
+    
+    .yellow {
+        background-color: #f39c12 !important
+    }
+    
+    .red {
+        background-color: #d33724 !important
+    }
+    
+    .green {
+        background-color: #00a65a !important
+    }
+    
+    .purple {
+        background-color: #30008a;
+    }
+    
+    .grey {
+        background-color: #b7b8bb;
+    }
+    
+    .small-box {
+        border-radius: 2px;
+        position: relative;
+        display: block;
+        margin-bottom: 20px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    }
+    
+    .small-box>.inner {
+        padding: 10px;
+    }
+    
+    .small-box>.icon {
+        -webkit-transition: all .3s linear;
+        -o-transition: all .3s linear;
+        transition: all .3s linear;
+        position: absolute;
+        top: -10px;
+        right: 10px;
+        z-index: 0;
+        font-size: 90px;
+        color: rgba(0, 0, 0, 0.15);
+    }
+    /*.small-box>.small-box-footer {
+        position: relative;
+        text-align: center;
+        padding: 3px 0;
+        color: #fff;
+        color: rgba(255, 255, 255, 0.8);
+        display: block;
+        z-index: 10;
+        background: rgba(0, 0, 0, 0.1);
+        text-decoration: none;
+    }*/
+    
+    .small-box .icon {
+        -webkit-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+        position: absolute;
+        top: -10px;
+        right: 10px;
+        z-index: 0;
+        font-size: 90px;
+        color: rgba(0, 0, 0, 0.15);
+    }
+    /*.small-box:hover .label {
+        text-decoration: none;
+        color: #f9f9f9;
+        font-size: 30px;
+    }*/
+    
+    .small-box:hover .icon {
+        font-size: 95px;
+        margin-top: 10px;
+    }
+    
+    .fa {
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    
+    .card {
+        border-radius: 0;
+        background-color: #fff;
+        margin-bottom: 30px;
+        -webkit-box-shadow: 0 1px 20px 1px rgba(69, 65, 78, .08);
+        -moz-box-shadow: 0 1px 20px 1px rgba(69, 65, 78, .08);
+        box-shadow: 0 1px 20px 1px rgba(69, 65, 78, .08);
+        border: 0;
+    }
+    
+    .card .card-header {
+        padding: 15px 15px;
+        background-color: transparent;
+        border-bottom: 1px solid #ebedf2!important;
+    }
+    
+    .card .card-title {
+        margin: 0;
+        color: #575962;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.6;
+    }
+    
+    .card .card-body {
+        padding: 15px;
+    }
+    
+    .table {
+        color: #555!important;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 1rem;
+        background-color: transparent;
+        display: table;
+        box-sizing: border-box;
+        text-indent: initial;
+        border-spacing: 2px;
+        border-color: grey;
+    }
+    
+    .box.box-solid {
+        border-top: 0;
+    }
+    
+    .box {
+        position: relative;
+        border-radius: 3px;
+        background: #ffffff;
+        border-top: 3px solid #d2d6de;
+        margin-bottom: 20px;
+        width: 100%;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    }
+    
+    .box.box-solid.box-default>.box-header {
+        color: #444;
+        background: #d2d6de;
+        background-color: #d2d6de;
+    }
+    
+    .collapsed-box .box-header.with-border {
+        border-bottom: none;
+    }
+    
+    .box-header.with-border {
+        border-bottom: 1px solid #f4f4f4;
+    }
+    
+    .box-header {
+        color: #444;
+        display: block;
+        position: relative;
+    }
+    
+    .box-body {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+        padding: 10px;
+        display: none;
+    }
+    
+    .box.box-solid>.box-header .btn:hover,
+    .box.box-solid>.box-header a:hover {
+        background: rgba(0, 0, 0, 0.1);
+    }
+    
+    .open .btn-box-tool,
+    .btn-box-tool:hover {
+        color: #606c84;
+    }
+    
+    .btn.focus,
+    .btn:focus,
+    .btn:hover {
+        color: #333;
+        text-decoration: none;
+    }
+    
+    .btn {
+        border-radius: 3px;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border: 1px solid transparent;
+    }
+    
+    .btn-box-tool {
+        padding: 5px;
+        font-size: 12px;
+        background: transparent;
+        color: #97a0b3;
+    }
+    
+    .box-title {
+        display: inline-block;
+        margin-left: 10px;
+        line-height: 1;
+        text-align: center;
+    }
+    
+    .box-widget {
+        border: none;
+        position: relative;
+    }
+    
+    .widget-user-2 .widget-user-header {
+        padding: 20px;
+        border-top-right-radius: 3px;
+        border-top-left-radius: 3px;
+    }
+    
+    .widget-user-2 .widget-user-username,
+    .widget-user-2 .widget-user-desc {
+        margin-left: 75px;
+    }
+    
+    .widget-user-2 .widget-user-username {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 25px;
+        font-weight: 300;
+    }
+    
+    .user-image {
+        width: 100px;
+        height: 80px;
+    }
+    
+    .img-circle {
+        border-radius: 50%;
+    }
+    
+    .new-user-ul {
+        flex-direction: row;
+        list-style: none;
+        padding-inline-start: 0;
+        width: 30%;
+    }
+    
+    .black {
+        background-color: black;
+    }
+    
+    .new-user-card {
+        display: flex;
+        padding: 10px;
+    }
+    
+    .new-user-image {
+        width: 110px;
+        height: 80px;
+    }
+    
+    .new-user-txt {
+        font-size: 20px;
+        font-weight: 600;
+        color: #dbdbdb !important;
+        height: 50%;
+    }
+    
+    .new-user-input {
+        border-radius: 7px;
+        border: none;
+    }
+    
+    .new-user-btn-div {
+        display: flex;
+        align-items: center;
+    }
+    
+    .new-user-margin {
+        margin-top: 10px;
+    }
+    
+    .criar-bolao-btn {
+        background-color: #001f3f;
+        border-radius: 5px;
+        color: white;
+        width: 100px;
+    }
+    
+    .partida-input {
+        width: 120px;
+        margin-bottom: 5px;
+    }
+    
+    .aposta-input {
+        width: 40px;
+    }
+    
+    .aposta-table {
+        border: none;
+        margin-bottom: 10px;
+        font-size: 15px;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .aposta-box {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .aposta-table td {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .w300 {
+        width: 300px;
+    }
+    
+    .verde {
+        background-color: #44fd33;
+    }
